@@ -1,0 +1,377 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "FIELD3":"Site_Name",
+    "FIELD4":"Hydrometric_station_No._gauge_ID)",
+    "FIELD5":"gross_drainage_area_sq.km"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -126.073132,52.369953 ]
+    },
+    "properties": {
+    "FIELD3":"Atnarko Rv.",
+    "FIELD4":"08FB006",
+    "FIELD5":"2550"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -126.388000,52.432000 ]
+    },
+    "properties": {
+    "FIELD3":"Bella Coola Rv. Near Hammer Rd.",
+    "FIELD4":"08FB011",
+    "FIELD5":"NA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -132.520789,53.413342 ]
+    },
+    "properties": {
+    "FIELD3":"Bonanza Creek",
+    "FIELD4":"NA",
+    "FIELD5":"NA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -125.080176,49.693149 ]
+    },
+    "properties": {
+    "FIELD3":"Browns Rv.",
+    "FIELD4":"08HB025",
+    "FIELD5":"87.9"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.997778,48.915560 ]
+    },
+    "properties": {
+    "FIELD3":"Carnation Creek ",
+    "FIELD4":"08HB048",
+    "FIELD5":"10.3"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.157400,49.799678 ]
+    },
+    "properties": {
+    "FIELD3":"Cheakamus Rv.",
+    "FIELD4":"08GA043",
+    "FIELD5":"965"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.705091,48.880006 ]
+    },
+    "properties": {
+    "FIELD3":"Chemainus Rv.",
+    "FIELD4":"08HA001",
+    "FIELD5":"355"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.714684,48.773205 ]
+    },
+    "properties": {
+    "FIELD3":"Cowichan Rv.",
+    "FIELD4":"08HA011",
+    "FIELD5":"826"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.285369,49.315739 ]
+    },
+    "properties": {
+    "FIELD3":"Englishman Rv.",
+    "FIELD4":"08HB002",
+    "FIELD5":"319"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -132.516342,53.402948 ]
+    },
+    "properties": {
+    "FIELD3":"Gregory Creek",
+    "FIELD4":"NA",
+    "FIELD5":"NA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -132.138094,53.252719 ]
+    },
+    "properties": {
+    "FIELD3":"Honna Rv near the mouth",
+    "FIELD4":"08OA004",
+    "FIELD5":"45.3"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.484223,49.358569 ]
+    },
+    "properties": {
+    "FIELD3":"Little Qualicum Rv.",
+    "FIELD4":"08HB029",
+    "FIELD5":"237"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.099942,49.356317 ]
+    },
+    "properties": {
+    "FIELD3":"MacKay Creek",
+    "FIELD4":"08GA061",
+    "FIELD5":"3.63"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.966905,49.177575 ]
+    },
+    "properties": {
+    "FIELD3":"Millstone Rv.",
+    "FIELD4":"08HB032",
+    "FIELD5":"86.2"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.876396,49.076391 ]
+    },
+    "properties": {
+    "FIELD3":"Nanaimo Rv.",
+    "FIELD4":"08HB034",
+    "FIELD5":"676"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.642692,49.419923 ]
+    },
+    "properties": {
+    "FIELD3":"Nile Creek",
+    "FIELD4":"08HB022",
+    "FIELD5":"15"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -125.229947,49.895551 ]
+    },
+    "properties": {
+    "FIELD3":"Oyster Rv.",
+    "FIELD4":"08HD011",
+    "FIELD5":"302"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -132.076494,53.255184 ]
+    },
+    "properties": {
+    "FIELD3":"Premier Crk",
+    "FIELD4":"08OA003",
+    "FIELD5":"NA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -125.296903,50.026653 ]
+    },
+    "properties": {
+    "FIELD3":"Quinsam Rv. ",
+    "FIELD4":"08HD005",
+    "FIELD5":"278"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -126.538100,52.399600 ]
+    },
+    "properties": {
+    "FIELD3":"Salloomt Rv.",
+    "FIELD4":"08FB004",
+    "FIELD5":"159"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -125.922668,50.320697 ]
+    },
+    "properties": {
+    "FIELD3":"Salmon Rv. ",
+    "FIELD4":"08HD006",
+    "FIELD5":"1210"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.334774,48.579860 ]
+    },
+    "properties": {
+    "FIELD3":"San Juan Rv.",
+    "FIELD4":"08HA010 ",
+    "FIELD5":"578"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.972790,48.891287 ]
+    },
+    "properties": {
+    "FIELD3":"Sarita Rv.",
+    "FIELD4":"08HB014",
+    "FIELD5":"162"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.201361,49.795633 ]
+    },
+    "properties": {
+    "FIELD3":"Squamish Rv.",
+    "FIELD4":"08GA022",
+    "FIELD5":"2350"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -132.204372,53.291838 ]
+    },
+    "properties": {
+    "FIELD3":"Stanley Rv. below weir",
+    "FIELD4":"NA",
+    "FIELD5":"NA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.142275,49.691978 ]
+    },
+    "properties": {
+    "FIELD3":"Stawamus Rv.",
+    "FIELD4":"08GA076",
+    "FIELD5":"52.8"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -131.943037,53.581777 ]
+    },
+    "properties": {
+    "FIELD3":"Tlell Rv.",
+    "FIELD4":"NA",
+    "FIELD5":"NA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -126.565188,50.404028 ]
+    },
+    "properties": {
+    "FIELD3":"Tsitika Rv.",
+    "FIELD4":"08HF004",
+    "FIELD5":"NA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -132.208736,53.620639 ]
+    },
+    "properties": {
+    "FIELD3":"Yakoun, near Port Clements",
+    "FIELD4":"08OA002",
+    "FIELD5":"480"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -132.276345,53.379017 ]
+    },
+    "properties": {
+    "FIELD3":"Yakoun, near QC",
+    "FIELD4":"NA",
+    "FIELD5":"NA"
+    }
+  }
+]
+}

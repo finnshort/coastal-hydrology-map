@@ -1,0 +1,317 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates": [ -126.00583,52.36000 ]
+    },
+    "properties": {
+    "FIELD3":"Station_No. ",
+    "FIELD4":"Site_Name",
+    "FIELD5":"gross_drainage_area_sq.km"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -126.00583,52.36000 ]
+    },
+    "properties": {
+    "FIELD3":"08FB006",
+    "FIELD4":"Atnarko Rv. near the mouth",
+    "FIELD5":"2550"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -126.35220,52.43917 ]
+    },
+    "properties": {
+    "FIELD3":"08FB011",
+    "FIELD4":"Bella Coola Rv. above Hammer Creek",
+    "FIELD5":"NA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -125.06917,49.69278 ]
+    },
+    "properties": {
+    "FIELD3":"08HB025",
+    "FIELD4":"Browns Rv. near courtenay",
+    "FIELD5":"87.9"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.99778,48.91556 ]
+    },
+    "properties": {
+    "FIELD3":"08NB048",
+    "FIELD4":"Carnation Creek",
+    "FIELD5":"10.3"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.15000,49.81583 ]
+    },
+    "properties": {
+    "FIELD3":"08GA043",
+    "FIELD4":"Cheakamus Rv. near Brackendale",
+    "FIELD5":"965"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.70444,48.87833 ]
+    },
+    "properties": {
+    "FIELD3":"08HA001",
+    "FIELD4":"Chemainus Rv. near Westholme",
+    "FIELD5":"355"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.71444,48.77306 ]
+    },
+    "properties": {
+    "FIELD3":"08HA011",
+    "FIELD4":"Cowichan Rv. near Duncan",
+    "FIELD5":"826"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.28500,49.31583 ]
+    },
+    "properties": {
+    "FIELD3":"08HB002",
+    "FIELD4":"Englishman Rv. near Parksville",
+    "FIELD5":"319"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -132.13778,53.25250 ]
+    },
+    "properties": {
+    "FIELD3":"08OA004",
+    "FIELD4":"Honna Rv. near the mouth",
+    "FIELD5":"45.3"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.48333,49.35444 ]
+    },
+    "properties": {
+    "FIELD3":"08HB029",
+    "FIELD4":"Little Qualicum Rv. near Qualicum Beach",
+    "FIELD5":"237"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.09972,49.35611 ]
+    },
+    "properties": {
+    "FIELD3":"08GA061",
+    "FIELD4":"MacKay Creek at Montroyal Boulevard",
+    "FIELD5":"3.63"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.96889,49.17722 ]
+    },
+    "properties": {
+    "FIELD3":"08HB032",
+    "FIELD4":"Millstone Rv. at Nanaimo",
+    "FIELD5":"86.2"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.88694,49.06861 ]
+    },
+    "properties": {
+    "FIELD3":"08HB034",
+    "FIELD4":"Nanaimo Rv. near Cassidy",
+    "FIELD5":"676"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.65194,49.41750 ]
+    },
+    "properties": {
+    "FIELD3":"08HB022",
+    "FIELD4":"Nile Creek near Bowser",
+    "FIELD5":"15"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -125.24083,49.89417 ]
+    },
+    "properties": {
+    "FIELD3":"08HD011",
+    "FIELD4":"Oyster Rv. below Woodhus Creek",
+    "FIELD5":"302"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -132.07500,53.25833 ]
+    },
+    "properties": {
+    "FIELD3":"08OA003",
+    "FIELD4":"Premier Creek near Queen Charlotte",
+    "FIELD5":"NA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -125.30000,50.02917 ]
+    },
+    "properties": {
+    "FIELD3":"08HD005",
+    "FIELD4":"Quinsam Rv. near Campbell Rv.",
+    "FIELD5":"278"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -126.52083,52.42444 ]
+    },
+    "properties": {
+    "FIELD3":"08FB004",
+    "FIELD4":"Salloomt Rv. near Hagensborg",
+    "FIELD5":"159"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -125.90750,50.31222 ]
+    },
+    "properties": {
+    "FIELD3":"08HD006",
+    "FIELD4":"Salmon Rv. near Sayward",
+    "FIELD5":"1210"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.31110,48.57611 ]
+    },
+    "properties": {
+    "FIELD3":"08HA010 ",
+    "FIELD4":"San Juan Rv. near Port Renfrew",
+    "FIELD5":"578"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.96917,48.89250 ]
+    },
+    "properties": {
+    "FIELD3":"08HB014",
+    "FIELD4":"Sarita Rv. Near Bamfield",
+    "FIELD5":"162"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.21900,49.79500 ]
+    },
+    "properties": {
+    "FIELD3":"08GA022",
+    "FIELD4":"Squamish Rv. near Brackendale",
+    "FIELD5":"2350"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.14639,49.68972 ]
+    },
+    "properties": {
+    "FIELD3":"08GA076",
+    "FIELD4":"Stawamus Rv. at Hwy No.99",
+    "FIELD5":"52.8"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -126.57833,50.44028 ]
+    },
+    "properties": {
+    "FIELD3":"08HF004",
+    "FIELD4":"Tsitika Rv. Below Catherine Creek",
+    "FIELD5":"365"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -132.20972,53.61389 ]
+    },
+    "properties": {
+    "FIELD3":"08OA002",
+    "FIELD4":"Yakoun Rv. near Port Clements",
+    "FIELD5":"480"
+    }
+  }
+]
+}
