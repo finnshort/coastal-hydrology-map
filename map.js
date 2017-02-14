@@ -1,6 +1,6 @@
 //Load map
 
-var map = L.map('map').setView([51.1, -127], 6);
+var map = L.map('map').setView([51.1, -127], 7);
 
 L.tileLayer('https://api.mapbox.com/v4/mapbox.run-bike-hike/{z}/{x}/{y}.png256?access_token=pk.eyJ1IjoiZHNob3J0IiwiYSI6ImNpdWM0Mng5czAwN2YyenFmOGZ4d2l2eXUifQ.sva-DsYSqbvQredRpeFG-A', {
   attribution:'&copy; Mapbox &copy; OpenStreetMap contributors'
@@ -10,13 +10,16 @@ L.tileLayer('https://api.mapbox.com/v4/mapbox.run-bike-hike/{z}/{x}/{y}.png256?a
 
 //Gauges icon
 var waterIcon = L.icon({
-  iconUrl: 'img/water-15.svg',
-  iconSize: '[24,24]'
+  iconUrl: 'img/water-11.svg',
+  iconSize: '[10,10]',
+  riseOnHover: true
 })
 
 //Gauges popup
 function onEachGaugeFeature(feature, layer) {
-        layer.bindPopup("Station Number: " + feature.properties.FIELD3 + "<br> Site Name: " + feature.properties.FIELD4 + "<br> Gross Drainage Area (sq km): " + feature.properties.FIELD5);
+        layer.bindPopup("Station Number: " + feature.properties.FIELD3 + "<br> Site Name: " + feature.properties.FIELD4 + "<br> Gross Drainage Area (sq km): " + feature.properties.FIELD5 + "</font>");
+        layer.on('mouseover', function() { layer.setOpacity(0.8); });
+        layer.on('mouseout', function() { layer.setOpacity(1); });
 };
 
 //Gauges data
@@ -350,13 +353,16 @@ L.geoJson(gaugesData, {
 
 //Samples icon
 var infoIcon = L.icon({
-  iconUrl: 'img/information-15.svg',
-  iconSize: '[24,24]'
+  iconUrl: 'img/school-15.svg',
+  iconSize: '[40,40]',
+  riseOnHover: true
 })
 
 //Samples popup
 function onEachSampleFeature(feature, layer) {
         layer.bindPopup("Site name: " + feature.properties.FIELD3 + "<br> Hydrometric Station No Gauge ID " + feature.properties.FIELD4 + "<br> Gross Drainage Area (sq km): " + feature.properties.FIELD5);
+        layer.on('mouseover', function() { layer.setOpacity(0.8); });
+        layer.on('mouseout', function() { layer.setOpacity(1); });
 };
 
 //Samples data

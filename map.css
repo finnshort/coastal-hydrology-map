@@ -2,3 +2,11 @@
   height: 100%;
   width: 100%;
 }
+.custom-popup .leaflet-popup-content-wrapper {
+  background: #cfecd0;
+  color: #337047;
+  font-size:12px;
+  font-weight: bold;
+  font-family: "Helvetica"
+  line-height:20px;
+}
