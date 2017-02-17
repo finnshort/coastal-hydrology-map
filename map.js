@@ -9,15 +9,15 @@ L.tileLayer('https://api.mapbox.com/v4/mapbox.run-bike-hike/{z}/{x}/{y}.png256?a
 //GAUGES
 
 //Gauges icon
-var waterIcon = L.icon({
-  iconUrl: 'img/water-11.svg',
-  iconSize: '[10,10]',
+var triangleIcon = L.icon({
+  iconUrl: 'img/triangle-stroked-15.svg',
+  iconSize: [18,18],
   riseOnHover: true
 })
 
 //Gauges popup
 function onEachGaugeFeature(feature, layer) {
-        layer.bindPopup("Station Number: " + feature.properties.FIELD3 + "<br> Site Name: " + feature.properties.FIELD4 + "<br> Gross Drainage Area (sq km): " + feature.properties.FIELD5 + "</font>");
+        layer.bindPopup("<h3>Hydrometric Gauge</h3>Station Number: " + feature.properties.FIELD3 + "<br> Site Name: " + feature.properties.FIELD4 + "<br> Gross Drainage Area (sq km): " + feature.properties.FIELD5 + "</font>");
         layer.on('mouseover', function() { layer.setOpacity(0.8); });
         layer.on('mouseout', function() { layer.setOpacity(1); });
 };
@@ -345,22 +345,22 @@ var gaugesData ={
 L.geoJson(gaugesData, {
     onEachFeature: onEachGaugeFeature,
     pointToLayer: function (feature, latlng) {
-        return L.marker(latlng, {icon: waterIcon});
+        return L.marker(latlng, {icon: triangleIcon});
     }
 }).addTo(map);
 
 //SAMPLE SITES
 
 //Samples icon
-var infoIcon = L.icon({
-  iconUrl: 'img/school-15.svg',
-  iconSize: '[40,40]',
+var sampleIcon = L.icon({
+  iconUrl: 'img/cricket-15.svg',
+  iconSize: [30,30],
   riseOnHover: true
 })
 
 //Samples popup
 function onEachSampleFeature(feature, layer) {
-        layer.bindPopup("Site name: " + feature.properties.FIELD3 + "<br> Hydrometric Station No Gauge ID " + feature.properties.FIELD4 + "<br> Gross Drainage Area (sq km): " + feature.properties.FIELD5);
+        layer.bindPopup("<h3>Sampling Site</h3>Site name: " + feature.properties.FIELD3 + "<br> Hydrometric Station No Gauge ID " + feature.properties.FIELD4 + "<br> Gross Drainage Area (sq km): " + feature.properties.FIELD5);
         layer.on('mouseover', function() { layer.setOpacity(0.8); });
         layer.on('mouseout', function() { layer.setOpacity(1); });
 };
@@ -748,6 +748,6 @@ var samplesData = {
 L.geoJson(samplesData, {
     onEachFeature: onEachSampleFeature,
     pointToLayer: function (feature, latlng) {
-        return L.marker(latlng, {icon: infoIcon});
+        return L.marker(latlng, {icon: sampleIcon});
     }
 }).addTo(map);

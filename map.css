@@ -3,10 +3,14 @@
   width: 100%;
 }
 .custom-popup .leaflet-popup-content-wrapper {
-  background: #cfecd0;
+  background: #E5E5E5;
   color: #337047;
   font-size:12px;
   font-weight: bold;
   font-family: "Helvetica"
   line-height:20px;
+}
+
+h3, p {
+margin: 0;
 }
