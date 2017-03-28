@@ -20,9 +20,10 @@
   border-color: rgb(250, 236, 35);
   border-width: 1px;
 }
+
 .blue {
-  background: rgb(74, 35, 247); /* Fallback for older browsers without RGBA-support */
-  background: rgba(74, 35, 247, 0.85);
+  background: rgb(93, 56, 255); /* Fallback for older browsers without RGBA-support */
+  background: rgba(93, 56, 255, 0.85);
   border-style: solid;
   border-color: rgb(74, 35, 247);
   border-width: 1px;

@@ -10,16 +10,15 @@ L.tileLayer('https://api.mapbox.com/v4/mapbox.run-bike-hike/{z}/{x}/{y}.png256?a
 
 //Gauges icon
 var triangleIcon = L.icon({
-  iconUrl: 'img/triangle-stroked-15.svg',
-  iconSize: [30, 30],
-  riseOnHover: true
+  iconUrl: 'img/commercial-15.svg',
+  iconSize: [27, 27]
 })
 
 //Gauges popup
 function onEachGaugeFeature(feature, layer) {
         layer.bindPopup("<h3>Hydrometric Gauge</h3>Station Number: " + feature.properties.FIELD3 + "<br> Site Name: " + feature.properties.FIELD4 + "<br> Gross Drainage Area (sq km): " + feature.properties.FIELD5 + "</font>", {className: 'yellow'});
-        layer.on('mouseover', function() { layer.setOpacity(0.8); });
-        layer.on('mouseout', function() { layer.setOpacity(1); });
+        //layer.on('mouseover', function() { layer.setOpacity(0.8); });
+        //layer.on('mouseout', function() { layer.setOpacity(1); });
 };
 
 //Gauges data
@@ -345,7 +344,7 @@ var gaugesData ={
 L.geoJson(gaugesData, {
     onEachFeature: onEachGaugeFeature,
     pointToLayer: function (feature, latlng) {
-        return L.marker(latlng, {icon: triangleIcon});
+        return L.marker(latlng, {icon: triangleIcon, riseOnHover: true});
     }
 }).addTo(map);
 
@@ -354,15 +353,14 @@ L.geoJson(gaugesData, {
 //Samples icon
 var sampleIcon = L.icon({
   iconUrl: 'img/water-15.svg',
-  iconSize: [24,24],
-  riseOnHover: true
+  iconSize: [25,25]
 })
 
 //Samples popup
 function onEachSampleFeature(feature, layer) {
         layer.bindPopup("<h3>Sampling Site</h3>Site name: " + feature.properties.FIELD3 + "<br> Hydrometric Station No Gauge ID " + feature.properties.FIELD4 + "<br> Gross Drainage Area (sq km): " + feature.properties.FIELD5, {className: 'blue'});
-        layer.on('mouseover', function() { layer.setOpacity(0.8); });
-        layer.on('mouseout', function() { layer.setOpacity(1); });
+        //layer.on('mouseover', function() { layer.setOpacity(0.8); });
+        //layer.on('mouseout', function() { layer.setOpacity(1); });
 };
 
 //Samples data
@@ -748,6 +746,6 @@ var samplesData = {
 L.geoJson(samplesData, {
     onEachFeature: onEachSampleFeature,
     pointToLayer: function (feature, latlng) {
-        return L.marker(latlng, {icon: sampleIcon});
+        return L.marker(latlng, {icon: sampleIcon, riseOnHover: true});
     }
 }).addTo(map);
